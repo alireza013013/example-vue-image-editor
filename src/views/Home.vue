@@ -23,7 +23,7 @@
         </div>
         <div class="container-button-editor">
             <div class="editor-image-div">
-                <ImageEditor @finish-editing="finishEditImage" :max-height="500" :max-width="500" ref="imageEditor"
+                <ImageEditor @finish-editing="finishEditImage" :max-height="450" :max-width="450" ref="imageEditor"
                     background-crop-div-color="white" border-crop-div-color="#4286f4" :color-brush="colorBrush"
                     v-model:file-image="selectedFileImageForEdit" />
             </div>
